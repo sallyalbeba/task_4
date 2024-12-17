@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url("imgs/imgs/pexels-gochrisgoxyz-1477166.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    width: 200px;
+    height: 150px;
+}
+.img1{
+    background-image: url("imgs/imgs/flower-1.png");
+    background-position: center center;
+    background-size: cover;
+    width: 25%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    height: 500px;
+    position: absolute;
+    left:10%;
+    float: left;
+    
+}
+.txt1,.txt2,.txt3{
+    position: relative;
+    /*width: 100%;
+    *//*bottom: 0;
+    */height: 100%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    -webkit-transition: opacity 0.5s ease-in;
+    -moz-transition: opacity 0.5s ease-in;
+    -ms-transition: opacity 0.5s ease-in;
+    -o-transition: opacity 0.5s ease-in;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+}
+.img1:hover, .img2:hover, .img3:hover {
+    background-size:auto;
+}
+.inner,.inner2,.inner3{
+    position: absolute;
+    transition: height 0.5s  ease-in;
+    -webkit-transition: height 0.5s  ease-in;
+    -moz-transition: height 0.5s  ease-in;
+    -ms-transition: height 0.5s  ease-in;
+    -o-transition: height 0.5s  ease-in;
+    bottom: 100px;
+    height:0;
+}
+.img1:hover .txt1,.img2:hover .txt2 ,.img3:hover .txt3{
+    opacity: 1;
+}
+.img1:hover .inner,.img2:hover .inner2,.img3:hover .inner3{
+    height: 40%;
+}
+.img2{
+    background-image: url("imgs/imgs/flower-2.png");
+    background-position: center center;
+    background-size: cover;
+    width: 25%;
+    height: 500px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    height: 500px;
+    position: absolute;
+    left:37%;
+    float: left;
+}
+.img3{
+    background-image: url("imgs/imgs/flower-5.png");
+    background-position: center center;
+    background-size: cover;
+    width: 25%;
+    height: 500px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    height: 500px;
+    position: absolute;
+    left:64%;
+    float: left;
+}
+button{
+    padding: 10px;
+    background-color: rgb(46, 169, 210);
+    color: white;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border: none;
+}
+button:hover{
+    background-color: green;
+}
+.b1{
+position: absolute;
+top: 94%;
+left: 20%;
+}
+.b2{
+    position: absolute;
+    top: 94%;
+    left: 47%;
+ }
+.b3{
+    position: absolute;
+    top: 94%;
+    left: 75%;
+ }
+ .price1{
+    width: 15%;
+    position: absolute;
+    left: 15%;
+    top: 91%;
+ }
+  span{
+    float: left;
+   color: white;
+  
+}
+.del{
+    color: gray;
+    float: right;
+}
+.price2{
+    width: 15%;
+    position: absolute;
+    left: 42%;
+    top: 91%;
+}
+.price3{
+    width: 15%;
+    position: absolute;
+    left: 70%;
+    top: 91%;
+}
